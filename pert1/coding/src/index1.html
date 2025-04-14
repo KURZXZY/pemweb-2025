@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Sample HTML</title>
+</head>
+<body>
+    Sample HTML
+</body>
+</html>
+<body>
+    index.html
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Full TAG HTML</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Main Heading (h1)</h1>
+        <h2>Sub Heading (h2)</h2>
+        <h3>Sub-sub Heading (h3)</h3>
+        <h4>Sub-sub-sub Heading (h4)</h4>
+        <h5>Sub-sub-sub-sub Heading (h5)</h5>
+        <h6>Sub-sub-sub-sub-sub Heading (h6)</h6>
+
+        <p>This is a paragraph of text. It provides a brief description or explanation. Notice how it is styled using the CSS file.</p>
+
+        <img src="/assets/logo-esa-unggul.png" alt="Sample Image" class="sample-image">
+
+        <form id="contact-form" action="#" method="post" onsubmit="handleSubmit(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+
+        <div>
+            <p>This is a <a href="https://www.esaunggul.ac.id">link</a> Website Esa Unggul.</p>
+        </div>
+
+        <ul class="sample-list">
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+
+        <div id="response-message">
+            <h2>Thank you for your submission!</h2>
+            <p>We have received your message and will get back to you soon.</p>
+        </div>
+    </div>
+</body>
+<script>
+    function handleSubmit(event) {
+        event.preventDefault();
+        const responseMessage = document.getElementById('response-message');
+        responseMessage.style.display = 'block';
+        document.getElementById('contact-form').reset();
+    }
+</script>
+</html>
+<body>
+    tag a.html
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Tag a HTML</title>
+    <link rel="stylesheet" href="../css/tag-a.css">
+</head>
+<body>
+    <p>Ini Halaman Website Universitas Esa Unggul</p>
+    <a href="https://www.esaunggul.ac.id" target="_blank">Kunjungi Halaman</a>
+</body>
+</html>
+<body>
+    tag div
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Tag div HTML</title>
+    <link rel="stylesheet" href="../css/tag-div.css">
+</head>
+<body>
+    <div class="container">
+        <p>Ini Paragraf</p>
+        <div class="content">
+            <h2>Ini Header Tag H 2</h2>
+            <p>Ini Paragraf di dalam tag div</p>
+        </div>
+    </div>
+</body>
+</html>
+<body>
+    tag from
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Tag form HTML</title>
+    <link rel="stylesheet" href="/css/tag-form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sample Form</h1>
+        <form onsubmit="handleSubmit(event)">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <div id="response-message">
+            <h2>Submit Working</h2>
+        </div>
+    </div>
+</body>
+<script>
+    function handleSubmit(event) {
+        event.preventDefault();
+        const responseMessage = document.getElementById('response-message');
+        responseMessage.style.display = 'block';
+    }
+</script>
+</html>
+<body>
+    tag h
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Tag H HTML</title>
+    <link rel="stylesheet" href="../css/tag-h.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Main Heading (h1)</h1>
+        <h2>Sub Heading (h2)</h2>
+        <h3>Sub-sub Heading (h3)</h3>
+        <h4>Sub-sub-sub Heading (h4)</h4>
+        <h5>Sub-sub-sub-sub Heading (h5)</h5>
+        <h6>Sub-sub-sub-sub-sub Heading (h6)</h6>
+    </div>
+</body>
+</html>
+<body>
+    tag img
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Tag img HTML</title>
+    <link rel="stylesheet" href="../css/tag-img.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Logo Esa Unggul</h1>
+        <img src="logo esa unggul.jpeg" alt="Sample Image" class="sample-image">
+    </div>
+</body>
+</html>
+<body>
+    tag p
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Tag p HTML</title>
+    <link rel="stylesheet" href="../css/tag-p.css">
+</head>
+<body>
+    <p> ini paragraf</p>
+</body>
+</html>
+<body>
+    tag ul
+</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1 - Tag ul li HTML</title>
+    <link rel="stylesheet" href="../css/tag-ul-li.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sample Unordered List</h1>
+        <ul class="sample-list">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+    </div>
+</body>
+</html>
